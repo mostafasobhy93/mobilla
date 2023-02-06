@@ -1,0 +1,65 @@
+header nav .links-list > ul .list-item {
+    margin-right: 35px;
+    margin-left: 0;
+}
+header nav .links-list > ul .list-item:last-child {
+    margin-right: 0;
+}
+.about-section .play-video, .learn-mobilla .play-video {
+    padding-right: 15px;
+    padding-left: 0;
+    left: 15px;
+    right: auto;
+    background: -webkit-gradient(linear, right top, right bottom, from(rgba(29,49,93,0.8)), to(rgba(29,49,93,1)));
+    background: -o-linear-gradient(top, rgba(29,49,93,0.8) 0%, rgba(29,49,93,1) 100%);
+    background: linear-gradient(-180deg, rgba(29,49,93,0.8) 0%, rgba(29,49,93,1) 100%);
+}
+.plan-section form select {
+    background-position: right 25px center;
+}
+footer .footer-price .right {
+    border-right: 1px solid #646464;
+    border-left: 0;
+}
+footer .content-right {
+    border-right: 1px solid #DCDCDC;
+    border-left: 0;
+}
+.pricing-section .pricing-list {
+    padding-left: 2rem;
+    padding-right: 0;
+}
+.error-page .content p {
+    border-left: 1px solid;
+    border-right: 0;
+}
+.main-form select {
+    background-position: right 25px center;
+}
+
+
+@media(max-width: 991px) {
+    header nav .bars {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    header nav .links-list.nav-menu {
+        right: 0;
+        left: auto;
+    }
+    header nav .links-list > ul .list-item {
+        margin: 0 5px;
+        padding: 11px 0;
+    }
+    footer .content-right {
+        border-right: 0;
+    }
+}
+@media(max-width: 575px) {
+    footer .footer-price .right {
+        border-right: 0;
+    }
+    .error-page .content p {
+        border-left: 0;
+    }
+}
